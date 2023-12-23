@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  padding: 5px;
+}
+a{
+  color:black;
+  text-decoration-line: none;
+}
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.container_item{
+  border: 1px solid #636363;
+  border-radius: 15px;
+  color:#666;
+}
+.item_title{
+  color: black;
+  font-size: 16pt;
+  //font-family: "Arial Narrow", serif;
+}
+.about_info{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#main_header{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 64pt;
+}
+.btn{
+  //width: fit-content;
+  background-color: #a4aaff;
+  color:white;
+}
+#toolbar{
+  text-align: start;
+}
+input, button{
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  height: 3em;
+  padding:2px;
+}
