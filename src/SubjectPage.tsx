@@ -10,7 +10,7 @@ function TopicLink({id, title, content}: TopicDescription) {
             <Link to={'/topic/' + id}>
                 <span className={"item_title"}>{title}</span>
             </Link>
-            <p>{content}</p>
+            <p>content</p>
         </div>
     );
 }
